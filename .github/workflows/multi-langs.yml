@@ -50,12 +50,15 @@ jobs:
       uses: github/codeql-action/init@v3
       with:
         languages: 'java-kotlin, c-cpp'
-
-    - name: Run SCons
-      uses: ./.github/actions/scons
-      with:
-        input-key1: input-value1
-        input-key2: input-value2
+    
+    - name: autobuild
+      uses: github/codeql-action/autobuild@v3
+      
+    # - name: Run SCons
+    #   uses: ./.github/actions/scons
+    #   with:
+    #     input-key1: input-value1
+    #     input-key2: input-value2
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
