@@ -1,7 +1,7 @@
   # Code Scanning Java Tutorial
 
 Welcome to the Code Scanning Java Tutorial! This tutorial will take you through how to set up Github Advanced Security: Code Scanning as well as interpret results that it may find. The following repository contains SQL injection vulnerability for demonstration purpose.
-
+GITHUB_TEST_TOKEN_E7F25C2CF921D8E3F2BED1662EC10C2C2BA50712
 ## Introduction
 
 Code scanning is a feature that you use to analyze the code in a GitHub repository to find security vulnerabilities and coding errors. Any problems identified by the analysis are shown in GitHub.
